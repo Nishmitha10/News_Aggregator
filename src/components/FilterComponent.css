@@ -1,0 +1,12 @@
+.filter-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: white;
+}
+
+.filter-container input,
+.filter-container select {
+    padding: 0.5rem;
+    margin-right: 1rem;
+}

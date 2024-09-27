@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  .articles-container {
+      grid-template-columns: 1fr;
+  }
+
+  .filter-container {
+      flex-direction: column;
+  }
+}
